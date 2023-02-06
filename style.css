@@ -1,0 +1,81 @@
+body {
+    margin: 0%;
+}
+
+.mainContainer {
+    display: flex;
+    color: white;
+}
+
+.topContainer {
+    font-family: 'Karla';
+    font-weight: 400;
+    color: hsl(218, 22%, 67%);
+    display: block;
+    flex: 10%;
+    text-align: justify;
+    padding-left: 60px;
+    margin-bottom: 50px;
+}
+
+.container2, .container3 {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: hsl(204, 43%, 90%);
+    display: inline-block;
+    flex: 50%;
+    text-align: justify;
+    padding: 70px;
+    padding-left: 60px;
+    padding-bottom: 70px;
+    margin: 0%;
+}
+
+.container2 {
+    background-color: hsl(179, 62%, 43%);
+}
+
+.container3 {
+    background-color: hsl(179, 62%, 50%);
+}
+
+#price {
+    font-size: 30px;
+    color: white;
+}
+
+.signUp {
+    color: white;
+    font-weight: 700;
+    font-size: larger;
+    text-align: center;
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    display: inline-block;
+    padding: 15px 165px;
+    margin: 4px 2px;
+    border-radius: 4px;
+}
+
+button:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    /* transition: 0.7s; */
+}
+
+#title {
+    color: hsl(179, 62%, 43%);
+}
+
+#invite {
+    color: hsl(71, 73%, 54%);
+}
+
+p {
+    line-height: 0.6;
+}
+
+#month {
+    vertical-align:super;
+}
